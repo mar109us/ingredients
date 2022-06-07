@@ -8,6 +8,7 @@ html, body {
 
 main {
   height: 100%;
+  border: 10px solid rgb(0, 85, 200);
   display: flex;
   flex-direction: column;
   
@@ -16,19 +17,22 @@ main {
 
 header {
   height: 80px;
-  border-bottom: 1px solid black;
+  border: 10px solid black;
 
 }
 
 section {
   flex: 1;
-  display: flex;
+  border: 5px solid rgb(255, 90, 90);
 
 }
 
 .container{
-
   flex: 1;
+  height: 15%;
+  border: 5px solid green;
+  text-align: center;
+
 }
 
 footer {
